@@ -12,6 +12,4 @@ This repository contains documentation and code in the format of hands-on-labs t
 
 ## [Accelerate Well-Architected Framework Reviews using Generative AI (IaC Analyzer)](https://catalog.workshops.aws/wellarchitected-genai/en-US)
 
-## [Accelerate Discovery with Service Screener](https://github.com/aws-samples/service-screener-v2/)
-
 Reach out to your AWS Account team to learn more about the AWS Well-Architected Framework.
