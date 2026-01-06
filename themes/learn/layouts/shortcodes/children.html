@@ -10,7 +10,7 @@
 
 	{{if .Page.IsHome}}
 		<!-- Add pages that are in root dir -->
-		{{ $rootPage := where .Page.Pages "File" "!=" nil | where . "File.Dir" "" }}
+		{{ $rootPage := (.Page.Pages | where "File" "!=" nil | where "File.Dir" "") }}
 		{{ .Scratch.Set "pages" (.Page.Sections | union $rootPage)}}
 	{{else}}
 		{{ if .Page.Sections}}
